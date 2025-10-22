@@ -13,7 +13,7 @@ python scripts/train.py --dataset <mdqm9 or timewarp> --data_path <path to datas
 ```
 
 ## Installation
-For the envirnment installation, first create an environment with python 3.11:
+For the environment installation, first create an environment with python 3.11:
  ```
 mamba create -n tito python=3.11
   ```
