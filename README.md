@@ -23,7 +23,7 @@ Then run:
   uv pip install -e .
   uv pip install torch==2.5.0 --index-url https://download.pytorch.org/whl/cu121
   uv pip install torch_scatter torch_sparse torch_cluster -f https://data.pyg.org/whl/torch-2.5.0+cu121.html
-  uv pip install lightning torch_geometric torchdyn
+  uv pip install lightning torch_geometric
 ```
 
 ## Dataset pre-processing
