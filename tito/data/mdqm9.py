@@ -20,9 +20,9 @@ class MDQM9Base(LazyH5DatasetMixin):
     scaling_factor = SCALING_FACTOR
 
     def __init__(self, path, sub_data_set="version_0", sub_sampling_indices_path=None, split=None, normalize=True, lazy_load=False):
-        self.path = path
-        self.h5_path = path + "mdqm9-nc.hdf5"
-        self.sdf_file = path + "mdqm9-nc.sdf"
+        self.path = os.path.join(path, "")
+        self.h5_path = os.path.join(path, "mdqm9-nc.hdf5")
+        self.sdf_file = os.path.join(path, "mdqm9-nc.sdf")
         self.split = split
         mol_suppl = Chem.SDMolSupplier(self.sdf_file, removeHs=False)
 

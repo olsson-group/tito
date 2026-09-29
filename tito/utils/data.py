@@ -62,7 +62,7 @@ def get_base_dataset(args):
         raise ValueError(f"Dataset {args.data_set} not supported. Choose from {list(datasets.keys())}.")
     dataset_class = datasets[args.data_set]
 
-    dataset = dataset_class(path=None, sub_data_set=args.sub_data_set, split=args.split, normalize=False, lazy_load=True) #inference
+    dataset = dataset_class(path=args.data_path, sub_data_set=args.sub_data_set, split=args.split, normalize=False, lazy_load=True)
     return dataset
 
 def get_batch(args, dataset, i_mol):
