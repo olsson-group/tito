@@ -37,14 +37,18 @@ Download the Timewarp dataset using [scripts/preprocessing/download_timewarp.py]
 This repository contains code to reproduce the results from:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2510.07589,
-  doi = {Diez2025},
-  url = {https://arxiv.org/abs/2510.07589},
+@article{Diez2026,
+  title = {Transferable generative models bridge femtosecond to nanosecond time-step molecular dynamics},
+  volume = {12},
+  ISSN = {2375-2548},
+  url = {http://dx.doi.org/10.1126/sciadv.aed2333},
+  DOI = {10.1126/sciadv.aed2333},
+  number = {15},
+  journal = {Science Advances},
+  publisher = {American Association for the Advancement of Science (AAAS)},
   author = {Diez,  Juan Viguera and Schreiner,  Mathias and Olsson,  Simon},
-  title = {Transferable Generative Models Bridge Femtosecond to Nanosecond Time-Step Molecular Dynamics},
-  publisher = {arXiv},
-  year = {2025},
-  copyright = {Creative Commons Attribution 4.0 International}
+  year = {2026},
+  month = Apr 
 }
 ```
 
